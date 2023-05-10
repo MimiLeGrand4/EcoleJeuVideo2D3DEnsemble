@@ -19,11 +19,11 @@ TagManager:
   - Water
   - UI
   - Wall
-  - Background
-  - Ground
-  - 
-  - 
-  - 
+  - Player
+  - Coin
+  - Monstre
+  - Spike
+  - plateMonte
   - 
   - 
   - 
@@ -48,9 +48,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
+  - name: Fond
     uniqueID: 3482136525
     locked: 0
-  - name: Background
+  - name: Ground
     uniqueID: 508739027
+    locked: 0
+  - name: Canvas
+    uniqueID: 2608500201
     locked: 0

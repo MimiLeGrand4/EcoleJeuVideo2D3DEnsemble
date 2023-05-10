@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class VictoryScript : MonoBehaviour
 {
     public AudioSource victorySound;
     public AudioSource levelMusic;
+    int sceneBuildIndex = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,6 @@ public class VictoryScript : MonoBehaviour
 
     void Menu()
     {
-        // Add code here;
+        SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
     }
 }

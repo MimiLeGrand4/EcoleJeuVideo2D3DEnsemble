@@ -274,7 +274,7 @@ public class PlayerMovement : MonoBehaviour
     //Pause
     void PauseScene()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (Time.timeScale == 1)
             {
