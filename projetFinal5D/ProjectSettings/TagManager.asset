@@ -8,6 +8,9 @@ TagManager:
   - Wall
   - Coin
   - DoorWicket
+  - Spike
+  - Fall
+  - Monstre
   layers:
   - Default
   - TransparentFX
@@ -16,8 +19,8 @@ TagManager:
   - Water
   - UI
   - Wall
-  - 
-  - 
+  - Background
+  - Ground
   - 
   - 
   - 
@@ -44,4 +47,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3482136525
+    locked: 0
+  - name: Background
+    uniqueID: 508739027
     locked: 0
