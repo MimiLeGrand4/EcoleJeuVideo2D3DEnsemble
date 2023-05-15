@@ -3904,6 +3904,10 @@ PrefabInstance:
       propertyPath: audioClipOneHeart
       value: 
       objectReference: {fileID: 8300000, guid: 54dbb34dcedbfa247a962d37a9565631, type: 3}
+    - target: {fileID: 6706889116602653413, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
+      propertyPath: enemyLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 8598356881640147315, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
       propertyPath: m_Name
       value: HeroKnight

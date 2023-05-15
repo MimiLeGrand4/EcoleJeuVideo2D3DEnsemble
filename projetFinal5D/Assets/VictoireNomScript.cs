@@ -22,7 +22,7 @@ public class VictoireNomScript : MonoBehaviour
         string playerName = PlayerPrefs.GetString("PlayerName");
         Debug.Log(playerName);
         // Vous pouvez maintenant accéder au texte du champ d'entrée comme ceci:
-        yourTextField.text = playerName + ", vous avez gagné!";
+        yourTextField.text = "Félicitations, " + playerName + "!";
         Debug.Log(yourTextField);
     }
 }
