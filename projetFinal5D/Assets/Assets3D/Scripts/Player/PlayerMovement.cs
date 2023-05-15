@@ -269,6 +269,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Appeller la panel de restart
         restartCanvas.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
     }
 
     //Pause
@@ -278,6 +279,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Time.timeScale == 1)
             {
+                Cursor.lockState = CursorLockMode.None;
                 pauseCanvas.SetActive(true);
                 Time.timeScale = 0;
             }

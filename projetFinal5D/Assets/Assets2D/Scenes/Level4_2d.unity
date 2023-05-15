@@ -2043,6 +2043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cd31b5970a797942b591121592181a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  victoryCanvas: {fileID: 0}
+  yourTextField: {fileID: 0}
 --- !u!1001 &791246324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42325,6 +42327,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1958319243, guid: 898523bad2d5137468890d53ced8002e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.0008087
+      objectReference: {fileID: 0}
     - target: {fileID: 2585627420675473729, guid: 898523bad2d5137468890d53ced8002e, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -365.5
@@ -42332,6 +42338,10 @@ PrefabInstance:
     - target: {fileID: 2585627420675473729, guid: 898523bad2d5137468890d53ced8002e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 143
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585627421343150108, guid: 898523bad2d5137468890d53ced8002e, type: 3}
+      propertyPath: m_text
+      value: Recommencer
       objectReference: {fileID: 0}
     - target: {fileID: 2585627421875567972, guid: 898523bad2d5137468890d53ced8002e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -42440,6 +42450,10 @@ PrefabInstance:
     - target: {fileID: 2585627421944653743, guid: 898523bad2d5137468890d53ced8002e, type: 3}
       propertyPath: m_Name
       value: Canva
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585627422157250379, guid: 898523bad2d5137468890d53ced8002e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.0008087
       objectReference: {fileID: 0}
     - target: {fileID: 2585627422309223587, guid: 898523bad2d5137468890d53ced8002e, type: 3}
       propertyPath: m_Interactable
@@ -43141,11 +43155,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6076201457759634724, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.5
+      value: -13.78
       objectReference: {fileID: 0}
     - target: {fileID: 6076201457759634724, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.64
+      value: -2.67
       objectReference: {fileID: 0}
     - target: {fileID: 6076201457759634724, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
       propertyPath: m_LocalPosition.z
@@ -43214,6 +43228,10 @@ PrefabInstance:
     - target: {fileID: 6739401094163681012, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779982466954331237, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8598356881640147315, guid: e8d7d4842381267409e16fae18ba4191, type: 3}
       propertyPath: m_Name

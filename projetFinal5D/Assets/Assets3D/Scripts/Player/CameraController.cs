@@ -38,6 +38,7 @@ public class CameraController : MonoBehaviour
 
             float horizontal = Input.GetAxis("Mouse X") * rotationSpeed;
             player.Rotate(0, horizontal, 0);
+            Cursor.lockState = CursorLockMode.None;
         }
 
         
